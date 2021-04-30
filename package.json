@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "la-dolce-vita",
   "version": "1.0.0",
-  "description": "Mern Demo",
+  "description": "La Dolce Vita",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -13,14 +13,14 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Kevin Miller",
+  "license": "None",
   "devDependencies": {
-    "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.7"
   },
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "if-env": "^1.0.4"
   }
 }
