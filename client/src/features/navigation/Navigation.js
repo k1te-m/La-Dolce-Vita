@@ -6,7 +6,10 @@ const Navigation = () => {
     <div className="container-fluid header navigation">
       <div className="row">
         <div className="col">
-          <Link>Register/Login</Link>
+          <Link>Register</Link>
+        </div>
+        <div className="col">
+          <Link>Login</Link>
         </div>
         <div className="col">
           <Link>Menu</Link>
