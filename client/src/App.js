@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./features/landing/Landing";
+import "./sass/main.scss";
 
 function App() {
   return (
