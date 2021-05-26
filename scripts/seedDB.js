@@ -106,14 +106,6 @@ const menuSeed = [
     },
   },
   {
-    name: "Cannolis",
-    category: "Cookies & Cannolis",
-    pricing: {
-      MezzaDozzina: 18,
-      Dozzina: 30,
-    },
-  },
-  {
     name: "Blueberry Crumble Bars",
     category: "Vegan Gluten Free Goodies",
     pricing: {
@@ -159,7 +151,7 @@ const menuSeed = [
     },
   },
   {
-    name: "Lemon Poppyseed Custard Cake",
+    name: "Blueberry Lemon Poppyseed Custard Cake",
     category: "By The Slice",
     pricing: {
       Slice: 5,
